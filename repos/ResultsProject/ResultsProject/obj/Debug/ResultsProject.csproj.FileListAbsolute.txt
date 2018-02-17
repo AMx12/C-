@@ -1,0 +1,7 @@
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\bin\Debug\ResultsProject.exe.config
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\bin\Debug\ResultsProject.exe
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\bin\Debug\ResultsProject.pdb
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\obj\Debug\ResultsProject.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\obj\Debug\ResultsProject.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\obj\Debug\ResultsProject.exe
+C:\Users\Andrew\source\repos\ResultsProject\ResultsProject\obj\Debug\ResultsProject.pdb

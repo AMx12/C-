@@ -26,7 +26,7 @@ namespace ResultsProject
             room.Add(s4);
             room.Add(s5);
         }
-        public void mainLogic()
+        public void MainLogic()
         {
             bool running = true;
 
@@ -48,28 +48,28 @@ namespace ResultsProject
                 switch (choice)
                 {
                     case 1:
-                        returnStudents();
+                        ReturnStudents();
                         break;
                     case 2:
-                        returnExams();
+                        ReturnExams();
                         break;
                     case 3:
-                        returnPercentage();
+                        ReturnPercentage();
                         break;
                     case 4:
-                        addStudent();
+                        AddStudent();
                         break;
                     case 5:
-                       removeStudent();
+                        RemoveStudent();
                         break;
                     case 6:
-                        singleStudent();
+                        SearchStudent();
                         break;
                 }
             }
         }
 
-        public void returnStudents()
+        public void ReturnStudents()
         {
             foreach(var student in room)
             {
@@ -77,14 +77,14 @@ namespace ResultsProject
             }
         }
 
-        public void returnExams()
+        public void ReturnExams()
         {
             foreach(var student in room)
             {
                 Console.WriteLine(student.printExamInfo());
             }
         }
-        public void returnPercentage()
+        public void ReturnPercentage()
         {
             foreach(var student in room)
             {
@@ -92,7 +92,7 @@ namespace ResultsProject
             }
         }
 
-        public void addStudent()
+        public void AddStudent()
         {
             bool creating = true;
 
@@ -132,7 +132,7 @@ namespace ResultsProject
 
         }
 
-        public void removeStudent()
+        public void RemoveStudent()
         {
             bool removing = true;
             bool notFound = false;
@@ -175,7 +175,7 @@ namespace ResultsProject
             }
         }
 
-        public void singleStudent()
+        public void SearchStudent()
         {
             bool searching = true;
             bool notFound = false;

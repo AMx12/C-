@@ -11,9 +11,9 @@ namespace BinaryConversion
         static void Main(string[] args)
         {
             Program bc = new Program();
-            //                            guide 00000000
+            //                           guide 00000000
            Console.WriteLine(bc.BinaryDecimal("10110001"));
-            bc.DecimalBinary();
+           bc.DecimalBinary();
         }
 
         public int BinaryDecimal(string binary)
@@ -56,6 +56,7 @@ namespace BinaryConversion
                 bit = bit / 2;
 
             }
+            Console.WriteLine();
         }
 
     }
